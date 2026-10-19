@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Stylized RISC-V board</title><desc id="desc">Technical illustration of a RISC-V board with chip and printed traces</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#123152"/><stop offset="1" stop-color="#0a1729"/></linearGradient>
+    <linearGradient id="pcb" x2="1" y2="1"><stop stop-color="#326f83"/><stop offset="1" stop-color="#103645"/></linearGradient>
+    <linearGradient id="chip" x2="1" y2="1"><stop stop-color="#273344"/><stop offset="1" stop-color="#0b121e"/></linearGradient>
+    <pattern id="dots" width="30" height="30" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#6c9bb8" opacity=".18"/></pattern>
+    <filter id="shadow"><feDropShadow dx="0" dy="20" stdDeviation="25" flood-color="#000" flood-opacity=".42"/></filter>
+  </defs>
+  <rect width="960" height="540" fill="url(#bg)"/>
+  <rect width="960" height="540" fill="url(#dots)"/>
+  <path d="M0 470 390 80M190 540 690 40M600 540 960 180" stroke="#4c86ac" opacity=".11" stroke-width="2"/>
+  <g transform="translate(192 64) rotate(-8 288 202)" filter="url(#shadow)">
+    <rect x="10" y="8" width="585" height="407" rx="22" fill="url(#pcb)" stroke="#5c9bad" stroke-width="4"/>
+    <g stroke="#62b0ad" opacity=".54" fill="none" stroke-width="4">
+      <path d="M36 112H150L210 170H260M36 170H130L180 220H259M36 260H130L190 290H260"/>
+      <path d="M581 115H485L435 164H358M578 208H500L460 234H358M578 306H486L435 294H355"/>
+      <path d="M165 18V93L205 132M420 19V99L381 138M140 395V350L202 305M465 395V352L392 319"/>
+    </g>
+    <g fill="#79ced4"><circle cx="150" cy="112" r="5"/><circle cx="130" cy="170" r="5"/><circle cx="486" cy="306" r="5"/><circle cx="420" cy="99" r="5"/><circle cx="140" cy="350" r="5"/></g>
+    <g fill="#111e2d" stroke="#5e94a0" stroke-width="2">
+      <rect x="48" y="43" width="106" height="44" rx="4"/><rect x="456" y="343" width="103" height="44" rx="4"/>
+      <rect x="62" y="304" width="70" height="64" rx="5"/><rect x="474" y="43" width="83" height="58" rx="5"/>
+    </g>
+    <rect x="215" y="126" width="181" height="181" rx="15" fill="url(#chip)" stroke="#7c929d" stroke-width="5"/>
+    <g stroke="#c0d2d8" stroke-width="7">
+      <path d="M236 115v-17m24 17v-17m24 17v-17m24 17v-17m24 17v-17m24 17v-17m24 17v-17"/>
+      <path d="M236 315v17m24-17v17m24-17v17m24-17v17m24-17v17m24-17v17m24-17v17"/>
+      <path d="M204 147h-17m17 24h-17m17 24h-17m17 24h-17m17 24h-17m17 24h-17m17 24h-17"/>
+      <path d="M407 147h17m-17 24h17m-17 24h17m-17 24h17m-17 24h17m-17 24h17m-17 24h17"/>
+    </g>
+    <text x="304" y="199" text-anchor="middle" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#dfedf1">RISC-V</text>
+    <text x="304" y="235" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" letter-spacing="3" fill="#79b9d4">ALLWINNER D1</text>
+    <text x="304" y="265" text-anchor="middle" font-family="monospace" font-size="12" fill="#7e93a6">kernel · mmio · uart</text>
+    <g fill="#bad5dc"><circle cx="41" cy="36" r="9"/><circle cx="565" cy="36" r="9"/><circle cx="41" cy="388" r="9"/><circle cx="565" cy="388" r="9"/></g>
+  </g>
+</svg>
