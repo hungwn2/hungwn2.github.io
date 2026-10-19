@@ -33,8 +33,8 @@
         </p>
         <div class="hero-actions">
           <a class="button button-primary" href="#projects">Explore projects <span aria-hidden="true">↗</span></a>
-          <!-- Replace YOUR_USERNAME with your GitHub username. -->
-          <a class="button button-outline" href="https://github.com/YOUR_USERNAME" target="_blank" rel="noopener noreferrer">GitHub profile <span aria-hidden="true">↗</span></a>
+          <!-- GitHub profile link. -->
+          <a class="button button-outline" href="https://github.com/hungwn2" target="_blank" rel="noopener noreferrer">GitHub profile <span aria-hidden="true">↗</span></a>
         </div>
       </section>
 
@@ -58,7 +58,7 @@
               <h3>xv6 on Allwinner D1</h3>
               <p>Bringing the xv6 teaching operating system to a real RISC-V board, including memory mapping, UART bring-up, and low-level device support.</p>
               <!-- Replace href with the corresponding project repository. -->
-              <a class="project-link" href="https://github.com/YOUR_USERNAME" target="_blank" rel="noopener noreferrer">View on GitHub <span aria-hidden="true">↗</span></a>
+              <a class="project-link" href="https://github.com/hungwn2" target="_blank" rel="noopener noreferrer">View on GitHub <span aria-hidden="true">↗</span></a>
             </div>
           </article>
 
@@ -71,7 +71,7 @@
               <div class="project-meta"><span>STM32</span><span>C</span><span>FIRMWARE</span></div>
               <h3>STM32 Firmware &amp; Drivers</h3>
               <p>Firmware update workflows, flash partition handling, and embedded communication drivers spanning I²C, RS-485, and CAN.</p>
-              <a class="project-link" href="https://github.com/YOUR_USERNAME" target="_blank" rel="noopener noreferrer">View on GitHub <span aria-hidden="true">↗</span></a>
+              <a class="project-link" href="https://github.com/hungwn2" target="_blank" rel="noopener noreferrer">View on GitHub <span aria-hidden="true">↗</span></a>
             </div>
           </article>
         </div>
@@ -98,7 +98,7 @@
         <div class="contact-actions">
           <!-- Replace with your actual email address. -->
           <a class="button button-primary" href="mailto:YOUR_EMAIL@example.com">Email me <span aria-hidden="true">↗</span></a>
-          <a class="button button-outline" href="https://github.com/YOUR_USERNAME" target="_blank" rel="noopener noreferrer">Find me on GitHub <span aria-hidden="true">↗</span></a>
+          <a class="button button-outline" href="https://github.com/hungwn2" target="_blank" rel="noopener noreferrer">Find me on GitHub <span aria-hidden="true">↗</span></a>
         </div>
       </section>
     </main>

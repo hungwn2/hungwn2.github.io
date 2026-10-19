@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Stylized STM32 development board</title><desc id="desc">Blue microcontroller board with pin headers and a square processor</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#172b49"/><stop offset="1" stop-color="#081427"/></linearGradient>
+    <linearGradient id="pcb" x2="1" y2="1"><stop stop-color="#236db3"/><stop offset="1" stop-color="#0e3867"/></linearGradient>
+    <linearGradient id="chip" x2="1" y2="1"><stop stop-color="#2a3444"/><stop offset="1" stop-color="#0b121e"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="21" stdDeviation="26" flood-color="#000" flood-opacity=".52"/></filter>
+  </defs>
+  <rect width="960" height="540" fill="url(#bg)"/>
+  <g stroke="#568dc7" stroke-width="1.5" opacity=".12"><path d="M0 75H960M0 155H960M0 235H960M0 315H960M0 395H960M0 475H960"/><path d="M80 0V540M190 0V540M300 0V540M410 0V540M520 0V540M630 0V540M740 0V540M850 0V540"/></g>
+  <g transform="translate(251 42) rotate(7 230 225)" filter="url(#shadow)">
+    <rect x="23" y="7" width="445" height="450" rx="13" fill="url(#pcb)" stroke="#518ec2" stroke-width="5"/>
+    <g fill="#192635" stroke="#d6b66b" stroke-width="3">
+      <rect x="-2" y="41" width="32" height="373" rx="3"/><rect x="461" y="41" width="32" height="373" rx="3"/>
+    </g>
+    <g fill="#bdaf80">
+      <rect x="4" y="55" width="19" height="10"/><rect x="4" y="83" width="19" height="10"/><rect x="4" y="111" width="19" height="10"/><rect x="4" y="139" width="19" height="10"/><rect x="4" y="167" width="19" height="10"/><rect x="4" y="195" width="19" height="10"/><rect x="4" y="223" width="19" height="10"/><rect x="4" y="251" width="19" height="10"/><rect x="4" y="279" width="19" height="10"/><rect x="4" y="307" width="19" height="10"/><rect x="4" y="335" width="19" height="10"/><rect x="4" y="363" width="19" height="10"/>
+      <rect x="468" y="55" width="19" height="10"/><rect x="468" y="83" width="19" height="10"/><rect x="468" y="111" width="19" height="10"/><rect x="468" y="139" width="19" height="10"/><rect x="468" y="167" width="19" height="10"/><rect x="468" y="195" width="19" height="10"/><rect x="468" y="223" width="19" height="10"/><rect x="468" y="251" width="19" height="10"/><rect x="468" y="279" width="19" height="10"/><rect x="468" y="307" width="19" height="10"/><rect x="468" y="335" width="19" height="10"/><rect x="468" y="363" width="19" height="10"/>
+    </g>
+    <g fill="none" stroke="#56a5e2" opacity=".56" stroke-width="3"><path d="M34 190H108L154 211M34 247H100L160 245M453 190H383L335 211M452 275H394L328 251M80 430V370L162 303M422 420V367L339 299"/></g>
+    <rect x="158" y="153" width="180" height="180" rx="9" fill="url(#chip)" stroke="#788ca2" stroke-width="5"/>
+    <g stroke="#b0c3d3" stroke-width="6"><path d="M176 144v-14m24 14v-14m24 14v-14m24 14v-14m24 14v-14m24 14v-14m24 14v-14M176 342v15m24-15v15m24-15v15m24-15v15m24-15v15m24-15v15m24-15v15"/><path d="M149 170h-14m14 24h-14m14 24h-14m14 24h-14m14 24h-14m14 24h-14m14 24h-14M346 170h15m-15 24h15m-15 24h15m-15 24h15m-15 24h15m-15 24h15m-15 24h15"/></g>
+    <text x="248" y="223" text-anchor="middle" font-family="Arial,sans-serif" font-size="32" font-weight="700" fill="#e4e9f2">STM32</text>
+    <text x="248" y="263" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" fill="#90b9de" letter-spacing="2">FIRMWARE</text>
+    <text x="248" y="292" text-anchor="middle" font-family="monospace" font-size="12" fill="#7b92a7">boot · flash · drivers</text>
+    <g fill="#d2d9d9"><rect x="97" y="52" width="102" height="47" rx="5"/><rect x="306" y="52" width="85" height="47" rx="5"/><rect x="103" y="363" width="57" height="38" rx="3"/></g>
+    <g fill="#101d2f"><rect x="103" y="60" width="88" height="31" rx="3"/><rect x="313" y="59" width="70" height="33" rx="3"/><rect x="112" y="369" width="40" height="26" rx="3"/></g>
+    <circle cx="362" cy="380" r="11" fill="#f0ce77"/><circle cx="393" cy="380" r="11" fill="#78d9af"/>
+  </g>
+</svg>
